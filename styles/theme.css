@@ -144,7 +144,7 @@ border: none;
     box-sizing: border-box;
 }
 
-/* Heading text */
+/* Header */
 .prdctive-users {
     font-size: 38px;
     font-weight: bold;
@@ -182,3 +182,38 @@ border: none;
     color: #000000;
     margin-top: 10px;
 }
+.text-center{
+    text-align: center;
+}
+/**/
+
+.review-container{
+  background-color: azure;
+  box-shadow: ;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    border-radius:12px ;
+    margin: 10px 50px;
+   padding: 24px 24px;
+   width: 300px;
+   
+
+}
+
+    .review{
+        width: 1140px;
+        height: 364px;
+        background-color: white;
+        padding: 33px;
+        text-align: center;
+        margin-bottom: 50px;
+
+
+    }
+    .review-description{
+
+
+    }
+    
+
