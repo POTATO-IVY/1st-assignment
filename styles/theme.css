@@ -70,6 +70,8 @@ color:white;
 padding:15px 36px ;
 border-radius: 10px;
 border: none;
+cursor: pointer;
+
 }
 
 /*banner part*/
@@ -185,35 +187,81 @@ border: none;
 .text-center{
     text-align: center;
 }
-/**/
 
-.review-container{
-  background-color: azure;
-  box-shadow: ;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    border-radius:12px ;
-    margin: 10px 50px;
-   padding: 24px 24px;
-   width: 300px;
-   
-
+/*user reviewww*/
+.testimonials {
+  text-align: center;
+  padding: 40px 20px;
 }
 
-    .review{
-        width: 1140px;
-        height: 364px;
-        background-color: white;
-        padding: 33px;
-        text-align: center;
-        margin-bottom: 50px;
+.testimonials h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  max-width: 280px;
+  text-align: left;
+}
+
+.stars img {
+
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+}
 
 
-    }
-    .review-description{
 
 
-    }
-    
+
+
+
+
+
+
 
