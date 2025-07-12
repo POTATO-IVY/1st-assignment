@@ -318,6 +318,38 @@ cursor: pointer;
   color: #333;
 }
 
+/*footerr*/
+
+.footer {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 60px;
+  color:rgb(61, 61, 223);
+  margin: 0;
+}
+
+.text {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.footer-list {
+  margin-top: 30px;
+}
+
+.footer-list a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #888;
+  font-weight: 500;
+}
+
+
+
+
 
 
 
